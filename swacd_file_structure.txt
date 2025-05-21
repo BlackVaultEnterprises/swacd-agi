@@ -1,0 +1,124 @@
+swacd/
+├── agents/
+│   ├── __init__.py
+│   ├── agent.py
+│   └── multi_agent.py
+├── coherence/
+│   ├── __init__.py
+│   ├── coherence_metric.py
+│   ├── engine/
+│   │   ├── __init__.py
+│   │   └── coherence_metric.py
+│   └── rules/
+│       ├── __init__.py
+│       ├── logical_consistency.py
+│       ├── semantic_similarity.py
+│       └── temporal_consistency.py
+├── config/
+│   ├── __init__.py
+│   ├── config.py
+│   └── memory_config.py
+├── core/
+│   ├── __init__.py
+│   ├── models.py
+│   └── utils.py
+├── data/
+│   ├── __init__.py
+│   └── .gitkeep
+├── docs/
+│   ├── __init__.py
+│   ├── api.md
+│   ├── architecture.md
+│   └── index.md
+├── embedding/
+│   ├── __init__.py
+│   └── embedding.py
+├── examples/
+│   ├── __init__.py
+│   ├── basic_usage.py
+│   └── integration_example.py
+├── exceptions/
+│   ├── __init__.py
+│   └── exceptions.py
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   └── pull_request_template.md
+│   └── workflows/
+│       └── ci.yml
+├── interfaces/
+│   ├── __init__.py
+│   └── interfaces.py
+├── knowledge/
+│   ├── __init__.py
+│   ├── knowledge_base.py
+│   └── retrieval.py
+├── memory/
+│   ├── __init__.py
+│   ├── memory.py
+│   ├── pubsub/
+│   │   ├── __init__.py
+│   │   └── redis_pubsub.py
+│   ├── semantic_db/
+│   │   ├── __init__.py
+│   │   ├── neo4j_client.py
+│   │   └── networkx_client.py
+│   └── vector_db/
+│       ├── __init__.py
+│       ├── faiss_client.py
+│       └── pinecone_client.py
+├── memory_system/
+│   ├── __init__.py
+│   ├── memory.py
+│   ├── pubsub/
+│   │   └── __init__.py
+│   ├── semantic_db/
+│   │   └── __init__.py
+│   └── vector_db/
+│       └── __init__.py
+├── metrics/
+│   ├── __init__.py
+│   └── metrics.py
+├── models/
+│   ├── __init__.py
+│   ├── embedding_models.py
+│   └── inference_models.py
+├── ontology/
+│   ├── __init__.py
+│   ├── relationships.py
+│   └── schema.py
+├── pipelines/
+│   ├── __init__.py
+│   ├── data_pipeline.py
+│   └── processing_pipeline.py
+├── prompts/
+│   ├── __init__.py
+│   ├── prompt_engineering.py
+│   └── prompt_templates.py
+├── reasoning/
+│   ├── __init__.py
+│   ├── inference.py
+│   ├── logic.py
+│   └── planning.py
+├── scripts/
+│   ├── __init__.py
+│   └── data_migration.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_coherence.py
+│   └── test_memory.py
+├── .editorconfig
+├── .env.example
+├── .flake8
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── docker-compose.yml
+├── mypy.ini
+├── pyproject.toml
+├── requirements.txt
+└── setup.py
